@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function AboutScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>About screen</Text>
+      <Text style={styles.text}>Profile screen</Text>
     </View>
   );
 }
@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   text: {
-    color: '#fff',
+    color: '#ffffff',
   },
 });
 
